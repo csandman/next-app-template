@@ -15,6 +15,24 @@
   "proseWrap": "preserve",
   "htmlWhitespaceSensitivity": "css",
   "endOfLine": "lf",
+  "importOrder": [
+    "^react$",
+    "^next/.+$",
+    "^@chakra-ui/react$",
+    "^@chakra-ui/.+$",
+    "<THIRD_PARTY_MODULES>",
+    "^stores/.+$",
+    "^components/.+$",
+    "^hooks/.+$",
+    "^utils/.+$",
+    "^data/.+$",
+    "^styles/.+$",
+    "^\\.?\\./.+$"
+  ],
+  "importOrderSortSpecifiers": true,
+  "importOrderSeparation": false,
+  "importOrderCaseInsensitive": false,
+  "importOrderParserPlugins": ["typescript", "jsx"],
   "overrides": [
     {
       "files": "*.svg",
