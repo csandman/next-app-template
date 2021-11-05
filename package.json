@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "my-web-app",
+  "name": "next-app-template",
   "version": "0.1.0",
   "scripts": {
     "build": "next build",
