@@ -1,12 +1,13 @@
 {
+  "private": true,
   "name": "my-web-app",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "format:package": "prettier-package-json --write",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.12",
